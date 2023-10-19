@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Калькулятор BMI</h1>
+    <h2>Индекса массы тела</h2>
+    <div class="calculator">
+        <label for="weight">Вес (кг):</label>
+        <input type="number" id="weight" min="0" step="0.1">
+        <label for="height">Рост (см):</label>
+        <input type="number" id="height" min="0" step="1">
+        <button id="calculate">Рассчитать BMI</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+    <table>
+        <caption>Соответствие между массой человека и его ростом</caption>
+        <tr>
+            <th>Индекс массы тела</th>
+            <th>Соответствие</th>
+        </tr>
+        <tr>
+            <td>16 и менее</td>
+            <td>Выраженный дефицит массы тела</td>
+        </tr>
+        <tr>
+            <td>16-18,5</td>
+            <td>Недостаточная (дефицит) масса тела</td>
+        </tr>
+        <tr>
+            <td>18,5-25</td>
+            <td>Норма</td>
+        </tr>
+        <tr>
+            <td>25-30</td>
+            <td>Избыточная масса тела (предожирение)</td>
+        </tr>
+        <tr>
+            <td>30-35</td>
+            <td>Ожирение первой степени</td>
+        </tr>
+        <tr>
+            <td>35-40</td>
+            <td>Ожирение второй степени</td>
+        </tr>
+        <tr>
+            <td>40 и более</td>
+            <td>Ожирение третьей степени (морбидное)</td>
+        </tr>
+    </table>
+    <img src="images/BMI.jpg" alt="Body mass index">
+</body>
+</html>

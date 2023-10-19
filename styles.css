@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 230px;
+}
+
+.calculator {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 40%; /* Увеличиваем ширину калькулятора до 70% ширины окна */
+    margin: 0 auto;
+    font-size: 18px; /* Увеличиваем размер шрифта в калькуляторе */
+    text-align: center; /* Центрируем текст в калькуляторе */
+}
+
+label, input {
+    display: block;
+    margin: 10px auto; /* Выравниваем поля ввода по центру */
+    font-size: 20px; /* Увеличиваем размер шрифта в полях ввода и метках */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px; /* Увеличиваем размер кнопки */
+    border: none;
+    cursor: pointer;
+    font-size: 20px; /* Увеличиваем размер шрифта в кнопке */
+    display: block;
+    margin: 10px auto; /* Выравниваем кнопку по центру */
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 40%;
+    font-size: 18px; /* Увеличиваем размер шрифта в таблице */
+}
+
+caption {
+    font-weight: bold;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+table, th, td {
+    border: 1px solid #aaa;
+}
+
+th, td {
+    padding: 12px; /* Увеличиваем размер ячеек таблицы */
+    text-align: center;
+}
+
+th {
+    background-color: #f5f5f5;
+}
+
+img {
+    margin-top: 20px; /* Отступ между таблицей и изображением */
+    display: block; /* Делает изображение блочным элементом */
+    margin: 0 auto; /* Выравнивает изображение по центру по горизонтали */
+    max-width: 50%;
+    max-height: 50%;
+}
